@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.nav-pad{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.white-text{
+    color: white;
+}
+ul li:hover{
+    background-color: #474b46;
+    border-radius: 4px;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+}
+.navbar-inverse .navbar-brand{
+    color: white;
+    font-size: 26px;
+}
+
+.intro{
+    font-size: 3em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/ig.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.intro-head {
+    font-size: 3em;
+}
+
+.intro-head-2 {
+    margin: 1em;
+    font-weight: 400;
+}
+.quote{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.text-blue{
+    color: blue;
+}
+
+.text-color {
+    color: #40fc11;
+}
+
+.donate-button{
+    margin-top: 10px;
+    /* animation: letsgo 1s ease-in; */
+} 
+.some-content{
+    margin-top: 50px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    min-height: 360px;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    display: flex;
+    min-height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-mid{
+    margin: auto;
+}
+#about{
+    margin-top: 40px;
+}
+.container1 h1{
+    font-size: 3.5em;
+    color: #1c3548;
+    margin: 0px 0px 10px 0px;
+}
+#mission{
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.text-padding{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.large-head{
+    font-size: 3em;
+}
+    
+.thumbnail>img{
+    height: 262px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.social-apps{
+    display: flex;
+    margin-bottom: 12px;
+}
+span{
+    list-style: none;
+}
+span a{
+    width: 42px;
+    height: 42px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
+}
+span a .social{
+    position: relative;
+    color: #2c2f30;
+    transition: .5s;
+    z-index: 3;
+    size: 1x;
+    top: -21px;
+}
+span a:hover .social{
+    color: #fff;
+    transform: rotateY(360deg);
+}
+span a:before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(134, 131, 131);
+    transition: .5s;
+    z-index: 2;
+}
+span a:hover:before{
+    top: 0;
+}
+span:nth-child(1) a:before{
+    background-color: #3b5999;
+}
+span:nth-child(2) a:before{
+    background-color: #E1306c;
+}
+span:nth-child(3) a:before{
+    background-color: #23a9f1;
+}
+span:nth-child(4) a:before{
+    background-color: #dd4b39;
+}
+
+@media only screen and (max-width: 767px) {
+    .intro-head {
+        font-size: 2em;
+    }
+    .intro-head-2 {
+        margin-top: 1rem;
+        font-size: 1em;
+    }
+    .image-padding{
+        padding: 10px;
+    }
+    .about-padding{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .container1{
+        min-height: fit-content;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .container1{
+        min-height: 240.26px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .container1{
+        min-height: 324.18px;
+    }
+    .container2{
+        min-height: 293.33px;
+    }
+}
+
+.bg{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/OpenBook.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: -40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.content-mid{
+    padding-top: 100px;
+}
