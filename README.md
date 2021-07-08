@@ -1,6 +1,6 @@
 # Task-3 Payment Gateway Integration
 <ul
-<li> Create a simple website where payment gateway is integrated.</li><br>
+<li> <li>Create a simple website where payment gateway is integrated.</li></li><br>
 <li> There will be a simple donate button on homepage. On clicking the donate button, the user will land on the payment page where user can select the amount to be paid and the payment type, e.g. credit card, Paypal, etc.</li><br>
 <li> Once the payment is done and invoice will be generated and email will be sent to the user for the payment received. The invoice will contain the amount.</li><br>
 <li> On any page / email, only basic information is needed.</li><br>
